@@ -1,0 +1,85 @@
+# ZOBEC Consulting
+# gitattributes shared file
+# revision 19.08.13.023759
+#
+# Copyright (c) 2015-2019 ZOBEC Consulting. All Rights Reserved.
+
+# Set default behaviour, in case users don't have core.autocrlf set.
+*                text=auto  eol=crlf
+
+# definition of file types
+# to native line endings on checkout.
+*.md             text  eol=crlf
+*.markdown       text  eol=crlf
+*.gitattributes  text  eol=crlf
+*.gitignore      text  eol=crlf
+
+# Declare files that will always have CRLF line endings on checkout.
+*.ps1            text  eol=crlf
+*.psm1           text  eol=crlf
+*.psd1           text  eol=crlf
+*.psc1           text  eol=crlf
+*.ps1xml         text  eol=crlf
+*.clixml         text  eol=crlf
+*.cmd            text  eol=crlf
+*.xml            text  eol=crlf
+*.txt            text  eol=crlf
+*.ini            text  eol=crlf
+*.inf            text  eol=crlf
+*.csv            text  eol=crlf
+*.html           text  eol=crlf
+*.htm            text  eol=crlf
+*.css            text  eol=crlf
+*.js             text  eol=crlf
+*.json           text  eol=crlf
+*.yaml           text  eol=crlf
+*.wxs            text  eol=crlf
+*.wxl            text  eol=crlf
+*.wixobj         text  eol=crlf
+*.nsi            text  eol=crlf
+*.iss            text  eol=crlf
+*.reg            text  eol=crlf
+*.cfg            text  eol=crlf
+*.adm            text  eol=crlf
+*.admx           text  eol=crlf
+*.adml           text  eol=crlf
+
+# specific files
+master_preferences.  text  eol=crlf
+
+# Denote all files that are truly binary and should not be mergeable.
+# binary
+*.dll            binary
+*.exe            binary
+*.wixpdb         binary
+*.pol            binary
+thumbs.db        binary
+
+# ms patches
+*.msi            binary
+*.msp            binary
+*.mst            binary
+*.msu            binary
+*.msu            binary
+
+# compressed
+*.zip            binary
+*.rar            binary
+*.cab            binary
+*.7z             binary
+*.000            binary
+*.001            binary
+
+# images
+*.bmp            binary
+*.ico            binary
+*.png            binary
+*.jpg            binary
+
+# documents
+*.rtf            binary
+*.doc            binary
+*.docx           binary
+*.xls            binary
+*.xlsx           binary
+*.pdf            binary
